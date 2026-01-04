@@ -1,0 +1,40 @@
+{
+  "title": "beisinicio",
+  "author": "Vanessa Arriaga Salinas (profesora)",
+  "date": "3/01/26",
+  "areas": {
+    "es": "deporte"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16)"
+  },
+  "description": {
+    "es": "con forne a lo que hemos aprendiso en el curso responde este crucigrama"
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "cruci-resized.jpg",
+  "thumbnail": "cruci-resized1.jpg",
+  "mainFile": "beisinicio.jclic",
+  "activities": 1,
+  "mediaFiles": 4,
+  "totalSize": 322738,
+  "files": [
+    "beisinicio.jclic",
+    "beisinicio.jclic.js",
+    "cruci-resized.jpg",
+    "cruci-resized1.jpg",
+    "cruci-resized2.jpg",
+    "cruci-resized4.jpg",
+    "imsmanifest.xml",
+    "index.html",
+    "project.json"
+  ]
+}

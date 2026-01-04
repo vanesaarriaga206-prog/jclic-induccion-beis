@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="beisinicio" version="0.1.3">
+ <settings>
+  <title>beisinicio</title>
+  <revision description="created" date="1/3/26" />
+  <author name="Vanessa Arriaga Salinas" mail="vanesaarriaga206@gmail.com" rol="profesora" />
+  <description>
+   <p>con forne a lo que hemos aprendiso en el curso responde este crucigrama</p>
+  </description>
+  <descriptors area="deporte" level-codes="SEC" />
+  <cover file="cruci-resized.jpg" />
+  <thumb file="cruci-resized1.jpg" />
+  <icon16 file="cruci-resized2.jpg" />
+  <icon72 file="cruci-resized2.jpg" />
+  <icon192 file="cruci-resized4.jpg" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>con forne a lo que hemos aprendiso en el curso responde este crucigrama</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="crucibeis" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.CrossWord" name="crucibeis" code="">
+   <description>
+    <p>con forme hemos progresado en curso responderemos </p>
+   </description>
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="8" columns="8" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>******C*</row>
+     <row>**G***UN</row>
+     <row>**U***AU</row>
+     <row>DIAMANTE</row>
+     <row>**N***RV</row>
+     <row>**T***OE</row>
+     <row>*REY****</row>
+     <row>********</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0">
+     <p>a este deporte se le denomina como el          "       de los deportes"</p>
+    </cell>
+    <cell id="2" item="1" />
+    <cell id="2" item="0" />
+    <cell id="5" item="2" />
+    <cell id="5" item="0" />
+    <cell id="5" item="1" />
+    <cell id="4" item="2" />
+    <cell id="4" item="0" />
+    <cell id="4" item="1" />
+    <cell id="2" item="4" />
+    <cell id="2" item="3" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="0" item="0" />
+    <cell id="7" item="0" />
+    <cell id="1" item="1" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0">
+     <p>el campo de beisbol tiene forma de</p>
+    </cell>
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style />
+    <cell id="1" item="2" />
+    <cell id="1" item="1" />
+    <cell id="7" item="1" />
+    <cell id="2" item="0">
+     <p>es uno de los elementos básicos del béisbol comienza con G</p>
+    </cell>
+    <cell id="1" item="0" />
+    <cell id="7" item="0">
+     <p>cuantos jugadores hay en cada equipo</p>
+    </cell>
+    <cell id="0" item="0" />
+    <cell id="8" item="0" />
+    <cell id="7" item="0" />
+    <cell id="7" item="0" />
+    <cell id="6" item="0">
+     <p>¿cuantas bases hay en el campo?</p>
+    </cell>
+    <cell id="6" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="1" item="0" />
+    <cell id="2" item="0" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="cruci-resized.jpg" file="cruci-resized.jpg" />
+  <media name="cruci-resized1.jpg" file="cruci-resized1.jpg" />
+  <media name="cruci-resized2.jpg" file="cruci-resized2.jpg" />
+  <media name="cruci-resized4.jpg" file="cruci-resized4.jpg" />
+ </mediaBag>
+</JClicProject>
+
